@@ -60,7 +60,7 @@
                                                 </value>
                                                 <next>
                                                   <block type="oled_drawtext" id="70">
-                                                    <field name="TEXT">Thank You For Helping to</field>
+                                                    <field name="TEXT">Thank You For Helping</field>
                                                     <next>
                                                       <block type="multimedia_doupdate" id="71">
                                                         <next>
@@ -105,7 +105,7 @@
                                                 </value>
                                                 <next>
                                                   <block type="oled_drawtext" id="93">
-                                                    <field name="TEXT">Next Generation of</field>
+                                                    <field name="TEXT">to Inspire Future</field>
                                                     <next>
                                                       <block type="multimedia_doupdate" id="94">
                                                         <next>
