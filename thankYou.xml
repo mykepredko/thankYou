@@ -100,7 +100,7 @@
                                                       <block type="oled_setcursor" id="90" inline="true">
                                                         <value name="STARTX">
                                                           <block type="math_number" id="91">
-                                                            <field name="NUM">0</field>
+                                                            <field name="NUM">12</field>
                                                           </block>
                                                         </value>
                                                         <value name="STARTY">
@@ -110,7 +110,7 @@
                                                         </value>
                                                         <next>
                                                           <block type="oled_drawtext" id="93">
-                                                            <field name="TEXT">to Inspire Future:</field>
+                                                            <field name="TEXT">us Inspire Future:</field>
                                                             <next>
                                                               <block type="multimedia_doupdate" id="94">
                                                                 <next>
@@ -143,7 +143,7 @@
                                                           <block type="oled_setcursor" id="98" inline="true">
                                                             <value name="STARTX">
                                                               <block type="math_number" id="99">
-                                                                <field name="NUM">20</field>
+                                                                <field name="NUM">24</field>
                                                               </block>
                                                             </value>
                                                             <value name="STARTY">
@@ -186,7 +186,7 @@
                                                               <block type="oled_setcursor" id="119" inline="true">
                                                                 <value name="STARTX">
                                                                   <block type="math_number" id="120">
-                                                                    <field name="NUM">20</field>
+                                                                    <field name="NUM">24</field>
                                                                   </block>
                                                                 </value>
                                                                 <value name="STARTY">
@@ -229,7 +229,7 @@
                                                                   <block type="oled_setcursor" id="129" inline="true">
                                                                     <value name="STARTX">
                                                                       <block type="math_number" id="130">
-                                                                        <field name="NUM">20</field>
+                                                                        <field name="NUM">24</field>
                                                                       </block>
                                                                     </value>
                                                                     <value name="STARTY">
@@ -272,7 +272,7 @@
                                                                       <block type="oled_setcursor" id="139" inline="true">
                                                                         <value name="STARTX">
                                                                           <block type="math_number" id="140">
-                                                                            <field name="NUM">20</field>
+                                                                            <field name="NUM">24</field>
                                                                           </block>
                                                                         </value>
                                                                         <value name="STARTY">
