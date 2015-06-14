@@ -272,7 +272,7 @@
                                                                       <block type="oled_setcursor" id="139" inline="true">
                                                                         <value name="STARTX">
                                                                           <block type="math_number" id="140">
-                                                                            <field name="NUM">0</field>
+                                                                            <field name="NUM">12</field>
                                                                           </block>
                                                                         </value>
                                                                         <value name="STARTY">
@@ -282,7 +282,7 @@
                                                                         </value>
                                                                         <next>
                                                                           <block type="oled_drawtext" id="142">
-                                                                            <field name="TEXT">&amp; Mathematicians</field>
+                                                                            <field name="TEXT">Mathematicians</field>
                                                                             <next>
                                                                               <block type="multimedia_doupdate" id="143"></block>
                                                                             </next>
