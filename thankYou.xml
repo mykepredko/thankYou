@@ -51,9 +51,19 @@
                                         </value>
                                         <next>
                                           <block type="oled_drawtext" id="70">
-                                            <field name="TEXT">For Helping Me Inspire</field>
+                                            <field name="TEXT">For Inspiring the</field>
                                             <next>
-                                              <block type="multimedia_doupdate" id="71"></block>
+                                              <block type="multimedia_doupdate" id="71">
+                                                <next>
+                                                  <block type="robot_delay" id="104" inline="true">
+                                                    <value name="DELAY">
+                                                      <block type="math_number" id="111">
+                                                        <field name="NUM">1000</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </next>
+                                              </block>
                                             </next>
                                           </block>
                                         </next>
@@ -86,9 +96,19 @@
                                         </value>
                                         <next>
                                           <block type="oled_drawtext" id="93">
-                                            <field name="TEXT">The Next Generation of</field>
+                                            <field name="TEXT">Next Generation of</field>
                                             <next>
-                                              <block type="multimedia_doupdate" id="94"></block>
+                                              <block type="multimedia_doupdate" id="94">
+                                                <next>
+                                                  <block type="robot_delay" id="112" inline="true">
+                                                    <value name="DELAY">
+                                                      <block type="math_number" id="113">
+                                                        <field name="NUM">1000</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </next>
+                                              </block>
                                             </next>
                                           </block>
                                         </next>
@@ -96,6 +116,186 @@
                                     </next>
                                   </block>
                                 </statement>
+                                <next>
+                                  <block type="controls_repeat" id="95" inline="true">
+                                    <value name="TIMES">
+                                      <block type="math_number" id="96">
+                                        <field name="NUM">1</field>
+                                      </block>
+                                    </value>
+                                    <statement name="DO">
+                                      <block type="multimedia_stopupdate" id="97">
+                                        <next>
+                                          <block type="oled_setcursor" id="98" inline="true">
+                                            <value name="STARTX">
+                                              <block type="math_number" id="99">
+                                                <field name="NUM">0</field>
+                                              </block>
+                                            </value>
+                                            <value name="STARTY">
+                                              <block type="math_number" id="100">
+                                                <field name="NUM">20</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="oled_drawtext" id="101">
+                                                <field name="TEXT">Scientists</field>
+                                                <next>
+                                                  <block type="multimedia_doupdate" id="102">
+                                                    <next>
+                                                      <block type="robot_delay" id="114" inline="true">
+                                                        <value name="DELAY">
+                                                          <block type="math_number" id="115">
+                                                            <field name="NUM">333</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </statement>
+                                    <next>
+                                      <block type="controls_repeat" id="116" inline="true">
+                                        <value name="TIMES">
+                                          <block type="math_number" id="117">
+                                            <field name="NUM">1</field>
+                                          </block>
+                                        </value>
+                                        <statement name="DO">
+                                          <block type="multimedia_stopupdate" id="118">
+                                            <next>
+                                              <block type="oled_setcursor" id="119" inline="true">
+                                                <value name="STARTX">
+                                                  <block type="math_number" id="120">
+                                                    <field name="NUM">0</field>
+                                                  </block>
+                                                </value>
+                                                <value name="STARTY">
+                                                  <block type="math_number" id="121">
+                                                    <field name="NUM">30</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="oled_drawtext" id="122">
+                                                    <field name="TEXT">Technologists</field>
+                                                    <next>
+                                                      <block type="multimedia_doupdate" id="123">
+                                                        <next>
+                                                          <block type="robot_delay" id="124" inline="true">
+                                                            <value name="DELAY">
+                                                              <block type="math_number" id="125">
+                                                                <field name="NUM">333</field>
+                                                              </block>
+                                                            </value>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="controls_repeat" id="126" inline="true">
+                                            <value name="TIMES">
+                                              <block type="math_number" id="127">
+                                                <field name="NUM">1</field>
+                                              </block>
+                                            </value>
+                                            <statement name="DO">
+                                              <block type="multimedia_stopupdate" id="128">
+                                                <next>
+                                                  <block type="oled_setcursor" id="129" inline="true">
+                                                    <value name="STARTX">
+                                                      <block type="math_number" id="130">
+                                                        <field name="NUM">0</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="STARTY">
+                                                      <block type="math_number" id="131">
+                                                        <field name="NUM">40</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="oled_drawtext" id="132">
+                                                        <field name="TEXT">Engineers</field>
+                                                        <next>
+                                                          <block type="multimedia_doupdate" id="133">
+                                                            <next>
+                                                              <block type="robot_delay" id="134" inline="true">
+                                                                <value name="DELAY">
+                                                                  <block type="math_number" id="135">
+                                                                    <field name="NUM">333</field>
+                                                                  </block>
+                                                                </value>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </statement>
+                                            <next>
+                                              <block type="controls_repeat" id="136" inline="true">
+                                                <value name="TIMES">
+                                                  <block type="math_number" id="137">
+                                                    <field name="NUM">1</field>
+                                                  </block>
+                                                </value>
+                                                <statement name="DO">
+                                                  <block type="multimedia_stopupdate" id="138">
+                                                    <next>
+                                                      <block type="oled_setcursor" id="139" inline="true">
+                                                        <value name="STARTX">
+                                                          <block type="math_number" id="140">
+                                                            <field name="NUM">0</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="STARTY">
+                                                          <block type="math_number" id="141">
+                                                            <field name="NUM">50</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="oled_drawtext" id="142">
+                                                            <field name="TEXT">Mathematicians</field>
+                                                            <next>
+                                                              <block type="multimedia_doupdate" id="143">
+                                                                <next>
+                                                                  <block type="robot_delay" id="144" inline="true">
+                                                                    <value name="DELAY">
+                                                                      <block type="math_number" id="145">
+                                                                        <field name="NUM">333</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </statement>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
                               </block>
                             </next>
                           </block>
