@@ -27,31 +27,75 @@
                           </block>
                         </value>
                         <next>
-                          <block type="multimedia_stopupdate" id="65">
-                            <next>
-                              <block type="oled_cleardisplay" id="66">
+                          <block type="controls_repeat" id="78" inline="true">
+                            <value name="TIMES">
+                              <block type="math_number" id="85">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                            <statement name="DO">
+                              <block type="multimedia_stopupdate" id="65">
                                 <next>
-                                  <block type="oled_setcursor" id="67" inline="true">
-                                    <value name="STARTX">
-                                      <block type="math_number" id="68">
-                                        <field name="NUM">0</field>
-                                      </block>
-                                    </value>
-                                    <value name="STARTY">
-                                      <block type="math_number" id="69">
-                                        <field name="NUM">0</field>
-                                      </block>
-                                    </value>
+                                  <block type="oled_cleardisplay" id="66">
                                     <next>
-                                      <block type="oled_drawtext" id="70">
-                                        <field name="TEXT">For Helping Me</field>
+                                      <block type="oled_setcursor" id="67" inline="true">
+                                        <value name="STARTX">
+                                          <block type="math_number" id="68">
+                                            <field name="NUM">0</field>
+                                          </block>
+                                        </value>
+                                        <value name="STARTY">
+                                          <block type="math_number" id="69">
+                                            <field name="NUM">0</field>
+                                          </block>
+                                        </value>
                                         <next>
-                                          <block type="multimedia_doupdate" id="71"></block>
+                                          <block type="oled_drawtext" id="70">
+                                            <field name="TEXT">For Helping Me Inspire</field>
+                                            <next>
+                                              <block type="multimedia_doupdate" id="71"></block>
+                                            </next>
+                                          </block>
                                         </next>
                                       </block>
                                     </next>
                                   </block>
                                 </next>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="controls_repeat" id="86" inline="true">
+                                <value name="TIMES">
+                                  <block type="math_number" id="87">
+                                    <field name="NUM">1</field>
+                                  </block>
+                                </value>
+                                <statement name="DO">
+                                  <block type="multimedia_stopupdate" id="88">
+                                    <next>
+                                      <block type="oled_setcursor" id="90" inline="true">
+                                        <value name="STARTX">
+                                          <block type="math_number" id="91">
+                                            <field name="NUM">0</field>
+                                          </block>
+                                        </value>
+                                        <value name="STARTY">
+                                          <block type="math_number" id="92">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="oled_drawtext" id="93">
+                                            <field name="TEXT">The Next Generation of</field>
+                                            <next>
+                                              <block type="multimedia_doupdate" id="94"></block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
                               </block>
                             </next>
                           </block>
