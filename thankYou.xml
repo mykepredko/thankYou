@@ -18,7 +18,47 @@
               <block type="oled_drawtext" id="42">
                 <field name="TEXT">Thank You</field>
                 <next>
-                  <block type="multimedia_doupdate" id="49"></block>
+                  <block type="multimedia_doupdate" id="49">
+                    <next>
+                      <block type="robot_delay" id="51" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="58">
+                            <field name="NUM">2000</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="multimedia_stopupdate" id="65">
+                            <next>
+                              <block type="oled_cleardisplay" id="66">
+                                <next>
+                                  <block type="oled_setcursor" id="67" inline="true">
+                                    <value name="STARTX">
+                                      <block type="math_number" id="68">
+                                        <field name="NUM">0</field>
+                                      </block>
+                                    </value>
+                                    <value name="STARTY">
+                                      <block type="math_number" id="69">
+                                        <field name="NUM">0</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="oled_drawtext" id="70">
+                                        <field name="TEXT">For Helping Me</field>
+                                        <next>
+                                          <block type="multimedia_doupdate" id="71"></block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
                 </next>
               </block>
             </next>
