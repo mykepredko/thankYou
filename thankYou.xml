@@ -60,7 +60,7 @@
                                                 </value>
                                                 <next>
                                                   <block type="oled_drawtext" id="70">
-                                                    <field name="TEXT">For Helping to</field>
+                                                    <field name="TEXT">Thank You For Helping to</field>
                                                     <next>
                                                       <block type="multimedia_doupdate" id="71">
                                                         <next>
